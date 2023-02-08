@@ -1,0 +1,98 @@
+.header {
+  /* background-image: url(../../img/stars.jpg);
+  background-size: contain;
+  background-position: center; */
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  gap: 1rem;
+  z-index: 10;
+  border-bottom: 1px solid #40b5cb;
+}
+
+/* .header__figure:nth-child(1) {
+} */
+
+.header__figure:nth-child(1) img {
+  width: 77px;
+}
+.header__figure:nth-child(2) {
+  width: 190px;
+  margin: 0 auto;
+}
+
+.header__nav--btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border: 0;
+  background-color: transparent;
+  gap: 0.65rem;
+  cursor: pointer;
+}
+
+.header__nav--btn span {
+  display: block;
+  background-color: #40b5cb;
+  height: 2px;
+  width: 100%;
+  transition: all 0.5s;
+  transform-origin: left;
+  border-radius: 5px;
+}
+
+.showmenu span:first-child {
+  transform: rotate(45deg);
+}
+
+.showmenu span:nth-child(2) {
+  opacity: 0;
+}
+
+.showmenu span:last-child {
+  transform: rotate(-45deg);
+}
+
+.header__nav--ul {
+  color: #40b5cb;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  position: absolute;
+  top: 59px;
+  left: 100%;
+  width: 100%;
+  height: 250px;
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+  /* background-image: url(../../img/stars.jpg);
+  background-size: contain;
+  background-position: center; */
+}
+
+ul.notshowmenu {
+  transform: translateX(100%);
+}
+
+.App {
+  margin-top: 60px;
+  scroll-margin-top: 60px;
+  scroll-margin-block: 60px;
+}
+
+#ParticleHeader,
+#ParticleMenu {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
