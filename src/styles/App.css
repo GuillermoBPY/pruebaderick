@@ -1,7 +1,4 @@
 .header {
-  /* background-image: url(../../img/stars.jpg);
-  background-size: contain;
-  background-position: center; */
   width: 100%;
   height: 60px;
   display: flex;
@@ -67,32 +64,20 @@
   align-items: center;
   gap: 3rem;
   position: absolute;
-  top: 59px;
-  left: 100%;
+  top: 60px;
+  left: 0;
   width: 100%;
   height: 250px;
-  transform: translateX(-100%);
   transition: transform 0.5s;
-  /* background-image: url(../../img/stars.jpg);
-  background-size: contain;
-  background-position: center; */
+  transform: translateY(-310px);
+  z-index: -2;
+  border: 1px solid #40b5cb;
 }
 
 ul.notshowmenu {
-  transform: translateX(100%);
+  transform: translateY(-1px);
 }
 
 .App {
-  margin-top: 60px;
-  scroll-margin-top: 60px;
-  scroll-margin-block: 60px;
-}
-
-#ParticleHeader,
-#ParticleMenu {
-  height: 100%;
-  width: 100%;
-  left: 0;
-  position: absolute;
-  z-index: -1;
+  color: white;
 }
