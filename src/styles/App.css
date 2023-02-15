@@ -112,7 +112,7 @@ ul.notshowmenu {
 .animeportal {
   position: absolute;
   left: -25px;
-  width: 200%;
+  width: 180%;
   transform: rotateX(40deg) rotateY(0deg);
   transform-style: preserve-3d;
   z-index: 0;
@@ -121,7 +121,7 @@ ul.notshowmenu {
 }
 
 .charactersgrid {
-width: 100vw;
+  width: 100vw;
   padding: 2rem 1rem;
   display: grid;
   place-content: center;
