@@ -13,6 +13,7 @@ const Banner = () => {
   return (
     <header className="header">
       <figure className="header__figure">
+        <img className="animeportal" src="../gif/aniportal.gif" />
         <img src="../../img/fuckyou.png" alt="" />
       </figure>
       <figure className="header__figure">
@@ -33,7 +34,9 @@ const Banner = () => {
           <li>Characters</li>
           <li>Episodes</li>
           <li>Locations</li>
-          <li><img className="ojosmorty" src="../../img/ojos.png" /></li>
+          <li>
+            <img className="ojosmorty" src="../../img/ojos.png" />
+          </li>
         </ul>
       </nav>
       <VideoBgHeader />
