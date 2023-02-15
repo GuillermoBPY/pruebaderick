@@ -10,11 +10,11 @@
   z-index: 10;
 }
 
-.App{
+.App {
   margin-top: 70px;
 }
 .header__figure:nth-child(1) img {
-  width: 72px;
+  width: 100px;
   transform: rotateX(-1);
 }
 .header__figure:nth-child(2) {

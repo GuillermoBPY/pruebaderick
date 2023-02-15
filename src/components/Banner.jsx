@@ -13,7 +13,7 @@ const Banner = () => {
   return (
     <header className="header">
       <figure className="header__figure">
-        <img src="../../img/fuckportal.png" alt="" />
+        <img src="../../img/rickmortycabezas.png" alt="" />
       </figure>
       <figure className="header__figure">
         <img src="../../img/ramlogo.png" alt="" />
