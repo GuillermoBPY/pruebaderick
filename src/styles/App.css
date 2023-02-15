@@ -12,7 +12,7 @@
 }
 
 .App {
-  min-width: 450px;
+  min-width: 100%;
   margin-top: 70px;
 }
 .header__figure:nth-child(1) {
