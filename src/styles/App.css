@@ -12,6 +12,7 @@
 }
 
 .App {
+  min-width: 450px;
   margin-top: 70px;
 }
 .header__figure:nth-child(1) {
@@ -95,6 +96,7 @@ ul.notshowmenu {
 
 .App {
   color: white;
+  display: flex;
 }
 
 .ojosmorty {
@@ -110,7 +112,7 @@ ul.notshowmenu {
 .animeportal {
   position: absolute;
   left: -25px;
-  min-width: 130px;
+  width: 170px;
   transform: rotateX(40deg) rotateY(0deg);
   transform-style: preserve-3d;
   z-index: 0;
@@ -118,9 +120,21 @@ ul.notshowmenu {
   height: 85%;
 }
 
+.charactersgrid {
+width: 100vw;
+  padding: 2rem 1rem;
+  display: grid;
+  place-content: center;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
 @media (min-width: 500px) {
   .animeportal {
-    width: 180px;
+    width: 200px;
     left: -35px;
+  }
+  .header__figure:nth-child(1) img:nth-child(2) {
+    height: 90%;
   }
 }

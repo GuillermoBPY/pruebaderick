@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import VideoBgHeader from "./VideoBgHeader";
 
-const Banner = () => {
+const Header = () => {
   const [showmenu, setshowmenu] = useState("notshowmenu");
 
   const handleMenuBtn = () => {
@@ -44,4 +44,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Header;
