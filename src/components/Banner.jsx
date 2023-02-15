@@ -13,7 +13,7 @@ const Banner = () => {
   return (
     <header className="header">
       <figure className="header__figure">
-        <img src="../../img/rickmortycabezas.png" alt="" />
+        <img src="../../img/fuckyou.png" alt="" />
       </figure>
       <figure className="header__figure">
         <img src="../../img/ramlogo.png" alt="" />
@@ -33,6 +33,7 @@ const Banner = () => {
           <li>Characters</li>
           <li>Episodes</li>
           <li>Locations</li>
+          <li><img className="ojosmorty" src="../../img/ojos.png" /></li>
         </ul>
       </nav>
       <VideoBgHeader />
